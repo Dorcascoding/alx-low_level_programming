@@ -1,4 +1,4 @@
-#include <stdin.h>
+#include <stdio.h>
 /**
 * main -print a code line with puts function
 *
@@ -6,6 +6,6 @@
 */
 int main(void)
 {
-printf("with proper grammar, but the outcome is a piece of art\b");
+printf("with proper grammar, but the outcome is a piece of art\n");
 return (0);
 }
