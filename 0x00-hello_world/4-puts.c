@@ -1,2 +1,11 @@
-#!/bin/bash
-gcc $CFILE -o cisfun
+#include <stdio.h>
+/**
+* main -print a code line with puts function
+*
+* Return: 0
+*/
+int main(void)
+{
+puts("\"Programming is like building a multilingual puzzle");
+return (0);
+}
