@@ -5,7 +5,7 @@
 #include <time.h>
 
 
-/*
+/**
  *  main - Prints the last digit of the number stored in variable n.
  * Return: Always (Success)
  *
