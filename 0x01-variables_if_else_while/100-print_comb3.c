@@ -8,20 +8,17 @@
 
 int main(void)
 {
-int n, m;
-for (n = 48; n <= 56; n++)
+int ch1, ch2;
+for (ch1 = 48; ch1 <= 58; ch1++)
 {
-for (m = 49; m <= 57; m++)
+for (ch2 = 49; ch2 <= 59; ch2++)
 {
-if (m > n)
+putchar(ch1);
+putchar(ch2);
+if (ch1 != 58 && ch2 != 59)
 {
-putchar(n);
-putchar(m);
-if (n != 56 || m != 57)
-{
-putchar(',');
-putchar('');
-}
+putchar(44);
+putchar(32);
 }
 }
 }
