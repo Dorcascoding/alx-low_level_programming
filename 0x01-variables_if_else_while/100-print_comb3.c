@@ -9,9 +9,9 @@
 int main(void)
 {
 int ch1, ch2;
-for (ch1 = 48; ch1 <= 56; ch1++)
+for (ch1 = 48; ch1 < 56; ch1++)
 {
-for (ch2 = 49; ch2 <= 57; ch2++)
+for (ch2 = 49; ch2 < 57; ch2++)
 {
 putchar(ch1);
 putchar(ch2);
