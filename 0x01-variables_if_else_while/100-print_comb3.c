@@ -17,8 +17,8 @@ putchar(ch1);
 putchar(ch2);
 if (ch1 != 58 && ch2 != 59)
 {
-putchar(44);
-putchar(32);
+putchar(' ');
+putchar(',');
 }
 }
 }
